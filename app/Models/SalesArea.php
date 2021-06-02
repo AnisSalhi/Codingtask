@@ -2,10 +2,19 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+use App\Models\PostalCode;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class SalesArea extends Model
 {
     use HasFactory;
+    public function salesGuy()
+    {
+        return $this->belongsTo(User::class);
+    }
+    public function postalCode()
+    {
+        return $this->hasMany(PostalCode::class);
+    }
 }

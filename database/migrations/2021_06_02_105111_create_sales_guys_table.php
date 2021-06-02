@@ -15,6 +15,9 @@ class CreateSalesGuysTable extends Migration
     {
         Schema::create('sales_guys', function (Blueprint $table) {
             $table->id();
+            $table->string('name');
+            $table->string('phone')->unique();
+            $table->foreignId('salesArea_id')->constrained()->cascadeOnDelete();
             $table->timestamps();
         });
     }

@@ -15,6 +15,7 @@ class CreateSalesAreasTable extends Migration
     {
         Schema::create('sales_areas', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('salesGuy_id')->constrained()->cascadeOnDelete();
             $table->timestamps();
         });
     }
