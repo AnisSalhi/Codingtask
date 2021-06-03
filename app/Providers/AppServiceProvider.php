@@ -3,6 +3,8 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Validator;
+use App\Validators\PostalCodeConflictValidator;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -23,6 +25,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+       Validator :: extend('current_code', new PostalCodeConflictValidator (),'this area contain some existing postal codes ' );
     }
 }

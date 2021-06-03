@@ -13,7 +13,7 @@ class SalesArea extends Model
     {
         return $this->belongsTo(User::class);
     }
-    public function postalCode()
+    public function postalCodes()
     {
         return $this->hasMany(PostalCode::class);
     }
