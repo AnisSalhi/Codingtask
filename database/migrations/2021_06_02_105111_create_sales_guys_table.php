@@ -17,7 +17,7 @@ class CreateSalesGuysTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('phone')->unique();
-            $table->foreignId('salesArea_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('salesArea_id');
             $table->timestamps();
         });
     }

@@ -16,7 +16,7 @@ class CreatePostalCodesTable extends Migration
         Schema::create('postal_codes', function (Blueprint $table) {
             $table->id();
             $table->string('code');
-            $table->foreignId('salesArea_id')->constrained()->cascadeOnDelete();
+            $table->foreignId('salesArea_id');
             $table->timestamps();
         });
     }

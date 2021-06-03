@@ -47946,6 +47946,42 @@ _Welcome_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__.default.__file
 
 /***/ }),
 
+/***/ "./resources/js/Pages/salesAreas/show.vue":
+/*!************************************************!*\
+  !*** ./resources/js/Pages/salesAreas/show.vue ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const script = {}
+script.__file = "resources/js/Pages/salesAreas/show.vue"
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (script);
+
+/***/ }),
+
+/***/ "./resources/js/Pages/task2.vue":
+/*!**************************************!*\
+  !*** ./resources/js/Pages/task2.vue ***!
+  \**************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const script = {}
+script.__file = "resources/js/Pages/task2.vue"
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (script);
+
+/***/ }),
+
 /***/ "./resources/js/Jetstream/ActionMessage.vue?vue&type=script&lang=js":
 /*!**************************************************************************!*\
   !*** ./resources/js/Jetstream/ActionMessage.vue?vue&type=script&lang=js ***!
@@ -50118,7 +50154,11 @@ var map = {
 	"./TermsOfService": "./resources/js/Pages/TermsOfService.vue",
 	"./TermsOfService.vue": "./resources/js/Pages/TermsOfService.vue",
 	"./Welcome": "./resources/js/Pages/Welcome.vue",
-	"./Welcome.vue": "./resources/js/Pages/Welcome.vue"
+	"./Welcome.vue": "./resources/js/Pages/Welcome.vue",
+	"./salesAreas/show": "./resources/js/Pages/salesAreas/show.vue",
+	"./salesAreas/show.vue": "./resources/js/Pages/salesAreas/show.vue",
+	"./task2": "./resources/js/Pages/task2.vue",
+	"./task2.vue": "./resources/js/Pages/task2.vue"
 };
 
 
